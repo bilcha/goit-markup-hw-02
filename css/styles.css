@@ -25,10 +25,31 @@ a {
   font-style: normal;
 }
 
-.header-link:hover,
-.header-link:active {
-  color: var(--primary-brand-color);
+button {
+  cursor: pointer;
 }
+
+h1 {
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.5;
+}
+
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -48,17 +69,28 @@ a {
   line-height: 1.5;
 }
 
+.header-link:hover,
+.header-link:active {
+  color: var(--primary-brand-color);
+}
+
+.selected-tab {
+  color: var(--primary-brand-color);
+}
+
 .contact-data {
   line-height: 1.5;
 }
 
+
 .hero-screen {
   background-color: var(--primary-dark-color);
-  color: #FFFFFF;
+  color: var(--primary-background-color);
+  text-align: center;
 }
 
 .cta {
-  color: #FFFFFF;
+  color: var(--primary-background-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -73,7 +105,7 @@ a {
 }
 
 .team-section {
-  background-color: #F4F4FD;
+  background-color: var(--secondary-light-color);
 }
 
 .team-card {
@@ -87,7 +119,7 @@ a {
 
 .filter-button {
   color: var(--primary-brand-color);
-  background-color: #F4F4FD;
+  background-color: var(--secondary-light-color);
   border: 1px solid var(--frame-color);
   border-radius: 4px;
 }
@@ -97,6 +129,7 @@ a {
   color: var(--primary-background-color);
   background-color: var(--pressed-button-color);
 }
+
 
 footer {
   background-color: var(--primary-dark-color);
