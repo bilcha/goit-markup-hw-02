@@ -55,7 +55,6 @@ a {
 .hero-screen {
   background-color: var(--primary-dark-color);
   color: #FFFFFF;
-  text-align: center;
 }
 
 .cta {
