@@ -10,7 +10,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
   background-color: var(--primary-background-color);
 }
@@ -21,37 +21,39 @@ body {
 
 .link {
   text-decoration: none;
-  color: var(--primary-dark-color);
+  color: var(--primary-text-color);
   font-style: normal;
 }
 
 button {
   cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
-h1 {
+.hero-header {
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
 }
 
 .section-header {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em
 }
 
-h3 {
+.block-header {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02em
+  color: var(--primary-dark-color);
 }
 
-p {
+.block-descr {
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  color: var(--primary-dark-color);
 }
 
 
@@ -77,15 +79,15 @@ p {
 }
 
 .list .link:hover,
-.list .link:active,
-.selected-tab {
+.list .link:focus,
+.list .link:active {
   color: var(--pressed-button-color);
 }
 
 .contact-data {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: #434455;
 }
 
 .address-data {
@@ -100,11 +102,7 @@ p {
 
 .cta {
   color: var(--primary-background-color);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
   background-color: var(--primary-brand-color);
-  letter-spacing: 0.04em;
 }
 
 .cta:hover,
@@ -129,6 +127,7 @@ p {
   color: var(--primary-brand-color);
   background-color: var(--secondary-light-color);
   border: 1px solid var(--frame-color);
+
 }
 
 .filter-button:hover,
