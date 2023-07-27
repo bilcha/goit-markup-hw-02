@@ -10,7 +10,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  letter-spacing: 0.02em;
   color: #434455;
   background-color: var(--primary-background-color);
 }
@@ -21,7 +20,7 @@ body {
 
 .link {
   text-decoration: none;
-  color: var(--primary-text-color);
+  color: var(--primary-dark-color);
   font-style: normal;
 }
 
@@ -36,11 +35,13 @@ button {
 .hero-header {
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .section-header {
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -48,12 +49,13 @@ button {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--primary-dark-color);
 }
 
 .block-descr {
   line-height: 1.5;
-  color: var(--primary-dark-color);
+  letter-spacing: 0.02em;
 }
 
 
