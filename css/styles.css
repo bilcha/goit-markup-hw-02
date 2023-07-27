@@ -56,9 +56,14 @@ button {
   color: var(--primary-dark-color);
 }
 
-.block-descr {
+.block-descr,
+.portfolio-descr {
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.portfolio-descr {
+  color: var(--primary-text-color);
 }
 
 .logo {
