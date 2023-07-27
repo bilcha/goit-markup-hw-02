@@ -43,6 +43,8 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: var(--primary-dark-color);
 }
 
 .block-header {
@@ -57,7 +59,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -86,7 +87,7 @@ button {
   color: var(--pressed-button-color);
 }
 
-.contact-data {
+.contact-data .link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -149,5 +150,7 @@ button {
 
 .footer-text,
 .footer-logo {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--secondary-light-color);
 }
