@@ -47,7 +47,8 @@ button {
   color: var(--primary-dark-color);
 }
 
-.block-header {
+.block-header,
+.portfolio-header {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
